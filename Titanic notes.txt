@@ -1,0 +1,32 @@
+Questions i want to answer before building a model:
+How many survived? Chart with a split between survived and deaths DONE
+
+What is the split of tickets according to class i.e. what did the class structure onboard look like. DONE
+Im thinking a pie chart to show it DONE
+
+Is there a correlation between ticket class and survival? group by class then check survival numbers DONE
+The 2 higher classes have a much higher chance of survival
+For first class it has 136 survived vs 80 deaths
+2nd has 87 vs 97
+3rd has 119 survivals vs 372 deaths, so most deaths came from third class
+
+What is the gender split? Group by gender then check survivals to see if gender played a role
+for men it is 109 survivals vs 468 deaths
+for women it is 233 survivals vs 81 deaths
+
+Let's create some age groups and group them in that way so we can use the data
+Also a distribution of ages first to see what it looked like
+Then let's check by age group to see which age groups survied or died the most
+
+When it comes to number of siblings/spouses and parents/children lets see if a higher number meant 
+less chances of survival
+Which age groups had the highest number of the last 2 categories
+Which class had the highest number
+
+Using the fare let's create a new column for the total amount paid for class*fare
+
+cabin number im not too sure how to use
+
+Did the embark location play a role? Let's group by embarked and check survival,class
+
+Extract title from name of passenger
